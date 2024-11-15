@@ -17,7 +17,7 @@ body {
 }
 
 .background {
-    background-image: url('https://wallpapercave.com/wp/wp9157801.jpg');
+    background-image: url('https://media.revistagq.com/photos/6227916e436b4eb4bbe78d62/master/w_1600%2Cc_limit/Captura%2520de%2520pantalla%25202022-03-08%2520a%2520las%252018.24.45.png');
     background-size: cover;
     background-position: center;
     height: 150px;
@@ -65,7 +65,7 @@ nav ul li a:hover {
     width: 300px; /* Ancho fijo */
 }
 
-.canciones {
+.zapatos {
     display: flex;
     flex-direction:column; /* Organización vertical */
     align-items: center; /* Centrado horizontal */
@@ -74,7 +74,7 @@ nav ul li a:hover {
     background-color: #32134c; /* Fondo claro */
 }
 
-.musica {
+.puestos {
     background-color: #2f2e30; /* Fondo oscuro */
     color: rgb(164, 91, 242); /* Texto */
     padding: 20px 30px;
