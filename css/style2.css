@@ -8,7 +8,7 @@
 
         /* Navbar */
         .navbar {
-            background-color: #ffffff;
+            background-color: #ffbaba;
             padding: 1rem;
             position: fixed;
             width: 100%;
@@ -44,8 +44,8 @@
 
         /* Hero Section */
         .hero {
-            background: linear-gradient(135deg, #2196f3, #21cbf3);
-            color: white;
+            background: url("https://th.bing.com/th/id/R.6c9307ada6ab967ad9d19a92a99801ea?rik=pnkj3gTcwlkmCQ&riu=http%3a%2f%2fwww.4mejores.com%2fwp-content%2fuploads%2f2016%2f10%2fZapatillas-baloncesto-Nike-1.jpg&ehk=Nav9%2f1Kp17ghp8AjpizwuBbqpHOKK1z9j7UAaK90zyg%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1");
+            color: rgb(255, 255, 255);
             padding: 8rem 2rem 4rem;
             text-align: center;
         }
@@ -77,7 +77,7 @@
         }
 
         .cta-button:hover {
-            background-color: #e91e63;
+            background-color: #fc0054;
         }
 
         /* Features */
@@ -95,7 +95,7 @@
         }
 
         .feature-card {
-            background: white;
+            background: rgb(255, 112, 112);
             padding: 2rem;
             border-radius: 10px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -105,7 +105,7 @@
         /* Testimonials */
         .testimonials {
             padding: 4rem 2rem;
-            background-color: white;
+            background-color: rgb(255, 100, 100);
         }
 
         .testimonials-container {
