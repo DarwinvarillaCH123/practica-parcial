@@ -3,11 +3,11 @@ document.getElementById('linkDiv').onclick = function() {
 }
 
 document.getElementById('linkDiv2').onclick = function() {
-    window.open('https://youtu.be/wfplQ20bfjA','_blank')
+    window.open('https://listado.mercadolibre.com.co/nike-zoom','_blank')
 }
 
 document.getElementById('linkDiv3').onclick = function() {
-    window.open('https://youtu.be/TGgcC5xg9YI','_blank')
+    window.open('https://www.amazon.com/s?k=lebron+witness+7+purple&adgrpid=1346904146059727&hvadid=84181781315105&hvbmt=bb&hvdev=c&hvlocphy=148246&hvnetw=o&hvqmt=b&hvtargid=kwd-84182559526431&hydadcr=7665_13723093&msclkid=d892cc1c3aec1fd552d6ab2beab5c409&tag=mh0b-20&ref=pd_sl_6rldmfygvz_b','_blank')
 }
 
 
