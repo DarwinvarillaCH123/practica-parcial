@@ -3,10 +3,11 @@ document.getElementById('linkDiv').onclick = function() {
 }
 
 document.getElementById('linkDiv2').onclick = function() {
-    window.open('https://www.youtube.com/watch?v=TGgcC5xg9YI&pp=ygUfc2VlIHlvdSBhZ2FpbiB0eWxlciB0aGUgY3JlYXRvcg%3D%3D','_blank')
+    window.open('https://youtu.be/wfplQ20bfjA','_blank')
+}
+
+document.getElementById('linkDiv3').onclick = function() {
+    window.open('https://youtu.be/TGgcC5xg9YI','_blank')
 }
 
 
-document.getElementById('linkDiv3').onclick = function () {
-    window.open('https://youtu.be/wfplQ20bfjA?si=KnzB2SPdK6G_vCOR','_blank')
-}
