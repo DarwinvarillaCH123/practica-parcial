@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a2e;
+    color: #fff;
+}
+
+.menu {
+    background-color: #13293c;
+    padding: 1rem 0;
+    margin-top: 0;
+}
+
+.background {
+    background-image: url('https://wallpapercave.com/wp/wp9157801.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bd7df0; /* Fondo claro para contraste */
+    height: 150px;
+}
+
+.contenido {
+    background-color: #2f2e30; /* Fondo oscuro */
+    color: rgb(164, 91, 242); /* Texto */
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(247, 0, 255, 0.5); /* Sombra */
+    text-align: center;
+    width: 300px; /* Ancho fijo */
+}
+
+.canciones {
+    display: flex;
+    flex-direction:column; /* Organización vertical */
+    align-items: center; /* Centrado horizontal */
+    gap: 20px; /* Separación entre las tarjetas */
+    padding: 20px;
+    background-color: #32134c; /* Fondo claro */
+}
+
+.musica {
+    background-color: #2f2e30; /* Fondo oscuro */
+    color: rgb(164, 91, 242); /* Texto */
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(242, 129, 246, 0.5); /* Sombra */
+    text-align: center;
+    width: 300px; /* Ancho fijo */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.musica:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(242, 129, 246, 0.7);
+}
+
+footer{
+    background-color: #2f2e30;
+    text-align: center;
+    padding: 40px 20px;
+}
+.clickable {
+    cursor: pointer; /* Cambia el cursor a "mano" */
+    background-color: #3f0030; /* Color de fondo */
+    color: #3a3a3a; /* Color del texto */
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block; /* Comportamiento de bloque en línea */
+}
+.clickable:hover {
+    background-color: #ffffff; /* Cambiar color al pasar el cursor */
+    color: #c88cfc;
+}
